@@ -1,4 +1,4 @@
-class FixtureFactory
+class RailNRoll 
     class << self 
         def add_to_fixture(fixture_name, object, ignored_has_many_associations:[])
             return unless object
